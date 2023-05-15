@@ -1,0 +1,92 @@
+*,
+*::before,
+*::after { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* Header */
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #92A8D1;
+  color: white;
+  font-size: 30px;
+}
+
+ /* Navigation bar */
+.navbar {
+  width: 100%;
+  background-color: #9db1d6;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  display: inline-block;
+  width: 33.33%;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #7586a7;
+}
+
+.active {
+  background-color: #8397bc;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+.material-symbols-outlined {
+	vertical-align: middle;
+}
+
+.webContent {
+  text-align: center;
+  background: #fff9e6;
+}
+
+.TextSection {
+  background-color: #FFFFFF; /* Use the color of your choice */
+  padding: 20px;
+  border: 1px solid #000000; /* Use the color of your choice */
+  border-radius: 5px; /* Use the amount of rounding you prefer */
+  width: 75%;
+  margin: auto;
+  display: none;
+  list-style-position: inside;
+}
+
+#HNCCounsSect1 {
+	display = "inline-block";
+}
+
+/*Table*/
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td, th {
+	text-align: left;
+	vertical-align: top;
+	border: 1px solid #000000;
+	background-color: #eeeeee;
+	padding: 8px;
+}
+
+.centerText {
+	text-align: center;
+}
